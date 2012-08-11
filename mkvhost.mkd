@@ -1,0 +1,32 @@
+** Awesome BASH Scripts (ABS) >> mkvhost v0.1-alpha **
+
+Description:
+------------
+`mkvhost` is a handy utility designed to make life a little bit easier for web developers (like myself) working on localy
+hosted projects.
+
+It provides the functionality to quickly and easily create all of the necessary files to set up a new virtual host
+configuration.
+
+(Okay here comes the but...)
+
+However it is currently only designed to work for Apache, and only on Ubuntu-like systems! (maybe Debian?)
+
+
+Features:
+---------
+	-	create a basic VHost config file from an internal template
+		-- (optionally) specify a template file to use instead
+
+	-	create vhost log files in the system default or user
+		specified directory
+ 
+	-	append an entry for the vhost to the system's `hosts` file
+
+
+Author / License Info:
+----------------------
+URL:		
+Author:		Christopher Leaper
+License:	MIT
+

@@ -1,0 +1,28 @@
+** Awesome BASH Scripts (ABS) - v0.1-alpha **
+
+DISCLAIMER // WARNING:
+----------------------
+1)	THESE SCRIPTS HAVE BEEN WRITTEN BY SOMEONE WHO HAS ABSOLUTELY
+	NO IDEA WHAT THEY'RE DOING!
+
+2)	THEY ARE IN ALL PROBABILITY ENTIRELY USELESS AND POTENTIALLY
+	DANGEROUS TO USE!
+
+3)	SERIOUSLY, IF YOU'RE GOING TO USE THEM, TEST THEM ON SOMEONE
+	ELSES COMPUTER FIRST, OR A VIRTUAL MACHINE OR SOMETHING!
+
+
+Just to clarify my position
+---------------------------
+These scripts are released under the MIT license and are free to use and/or modify, (re-)distribute and generally do whatever
+you want with them. Provided that you include the information detailed here and give credit to the author(s) where due.
+
+It has no warranty of any kind, so if a gremlin comes along and monkeys up your system when you're using any of these scripts
+then I'm afraid it's up to you to fix it.
+
+Any damages and/or losses you may incur as a result of using any of these scripts are not my responsibility and I cannot / will
+not be held accountable.
+
+
+** You have been warned! **
+

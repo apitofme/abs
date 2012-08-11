@@ -1,5 +1,7 @@
 #! /bin/bash
 
+# apitofme@github >> BASH >> ABS >> core -- v0.1-alpha
+
 # TODO
 #	- Build a 'base function' "abs" (a.k.a Awesome Bash Scripts) to utilise the extra functions that we'll provide
 #	- Provide additional functions as 'stand alone' as possible (and as separate bash files)

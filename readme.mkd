@@ -1,0 +1,14 @@
+** Awesome BASH Scripts (ABS) - v0.1-alpha **
+
+Description:
+------------
+ABS is intended to be a handy set of utility scripts for general system tasks, maintenance and workflow.
+It also includes some programmers tools for BASH scripting.
+
+
+Author / License Info:
+----------------------
+URL:		
+Author:		Christopher Leaper
+License:	MIT
+

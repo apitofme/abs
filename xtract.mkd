@@ -1,0 +1,26 @@
+** Awesome BASH Scripts (ABS) >> xtract v0.1-alpha **
+
+Description:
+------------
+`xtract` un-packs (i.e. extracts) various archive formats by automatically detecting the file type from it's file extension.
+
+Assuming that the relevant archive tool(s) exist on your system and is available to your terminal (i.e. is located in
+'/bin/bash' or wherever your shell command folder resides) then it will extract the contents of the archive file in to the
+specified directory.
+
+If no directory is specified it will extract the file in to the current working directory.
+
+
+Features:
+---------
+	-	xtract auto detects archive type from file extension
+	-	the user can specify a custom output directory (default is current working directory)
+	-	xtract will create the output directory if it does not already exist
+
+
+Author / License Info:
+----------------------
+URL:		
+Author:		Christopher Leaper
+License:	MIT
+

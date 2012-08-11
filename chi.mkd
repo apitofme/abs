@@ -1,0 +1,27 @@
+** Awesome BASH Scripts (ABS) >> chi v0.1-alpha **
+
+Description:
+------------
+chi -- chown, chgrp and chmod all rolled in to one!
+
+This script allows a user to easily specify a complete change of permissions for a file or directory
+-- i.e. Owner, Group and Access Permissions
+
+It supports recursion which makes it easy to perform bulk operations on entire file-system hierarchies allowing for quick
+configuration of a standard set of permissions, for security, sharing and more.
+
+These kind of operations are frequently required when working with web directories ['/var/www/...'], and is the reason for me
+developing this tool.
+
+
+Features:
+---------
+	-	
+
+
+Author / License Info:
+----------------------
+URL:		
+Author:		Christopher Leaper
+License:	MIT
+

@@ -1,0 +1,38 @@
+** Awesome BASH Scripts (ABS) >> harray v0.1-alpha **
+
+IMPORTANT NOTICE:
+-----------------
+I did not write the functions for Push, Pop, Shift & Unshift! ( I'm not trying to re-invent the wheel! )
+
+Credit for these go to 'admica' (?) -- a.k.a the rootninja -- please see:
+	http://www.rootninja.com/how-to-push-pop-shift-and-unshift-arrays-in-bash/
+
+
+Description:
+------------
+`harray` is a small collection of array manipulation functions common in most programming languages and implemented here for
+BASH scripting. It's really just a shell programmers/scripters STM (Super Tiny Micro) library that hopefully might make
+writting some more complex scripts a little bit easier.
+
+
+Features:
+---------
+	-	'push'		>> Adds an item on the the end of an array, increasing the array length by one
+	
+	-	'pop'		>> Removes an item off of the end of an array, decreasing the array length by one
+	
+	-	'shift'		>> Adds an item to the begining of an array, adjusting the previous array element's positions accordingly
+						(previous indexes increase by 1)
+	
+	-	'unshift'	>> Removes the first item in an array and adjusts all remaining elements positions accordingly
+						(previous indexes decrease by 1)
+	
+	-	'merge'		>> Merges two or more arrays together, with the option to sort by key/index or value **WIP**
+
+
+Author / License Info:
+----------------------
+URL:		
+Author:		Christopher Leaper
+License:	MIT
+
