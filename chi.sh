@@ -1,9 +1,7 @@
-#! /bin/bash
+#!/bin/bash
 
-# apitofme@github >> BASH >> ABS >> chi -- v0.1-alpha
+# apitofme@github >> BASH >> ABS >> chi -- v0.2-alpha
 
-
-# TODO figure out why this script says "line15: cat: command not found!"
 
 # check that we're runing as root/sudo
 if [ $EUID != 0 ]
@@ -55,28 +53,38 @@ fi
 
 
 # process command parameters
-while getopts ":o:g:m:" OPT
+while [ "$1" != "" ]
 do
-	case $OPT in
-		o) # Owner -- 'chown ...'
+	case $1 in
+		-h | --help )
+			show_usage
+			exit 0
+		;;
+		-o | --owner ) # uses 'chown ...'
+			shift
+			OPTARG="$1"
 			if [ $RECURSIVE ]
-				then `chown -R "$OPTARG" "$PATH"`
+				then /bin/chown -R "$OPTARG" "$PATH"
 			else
-				`chown "$OPTARG" "$PATH"`
+				/bin/chown "$OPTARG" "$PATH"
 			fi
 		;;
-		g) # Group -- 'chgrp ...'
+		-g | --group ) # uses 'chgrp ...'
+			shift
+			OPTARG="$1"
 			if [ $RECURSIVE ]
-				then `chgrp -R "$OPTARG" "$PATH"`
+				then /bin/chgrp -R "$OPTARG" "$PATH"
 			else
-				`chgrp "$OPTARG" "$PATH"`
+				/bin/chgrp "$OPTARG" "$PATH"
 			fi
 		;;
-		m) # Mod -- 'chmod ...'
+		-m | --mod | --permissions ) # uses 'chmod ...'
+			shift
+			OPTARG="$1"
 			if [ $RECURSIVE ]
-				then `chmod -R "$OPTARG" "$PATH"`
+				then /bin/chmod -R "$OPTARG" "$PATH"
 			else
-				`chmod "$OPTARG" "$PATH"`
+				/bin/chmod "$OPTARG" "$PATH"
 			fi
 		;;
 		\?) # unknown option
@@ -84,5 +92,6 @@ do
 			exit 1
 		;;
 	esac
+	shift
 done
 
