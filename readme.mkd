@@ -1,3 +1,5 @@
+!!! ARCHIVED: ...can't remember the last time I did any console scripting. Many other (better) tools exist for some of the things I was trying to achieve here, and the rest... I have honestly forgotten !!!
+
 ** Awesome BASH Scripts (ABS) - v0.1-alpha **
 
 Description:
